@@ -1,0 +1,50 @@
+# Bug Reports — Healthcare Appointment System
+
+## BUG-001: Duplicate Appointment Booking Accepted
+
+- **Related Test Case:** TC-006
+- **Severity:** Medium (proposed)
+- **Status:** Open — pending verification
+
+**Steps to Reproduce**
+1. Open the appointment booking page.
+2. Book an appointment with a doctor for a specific date and time.
+3. Submit another appointment for the same doctor, date, and time.
+
+**Expected Result:** The system should prevent duplicate bookings if overlapping appointments are not allowed.
+
+**Actual Result:** The second appointment was accepted.
+
+## BUG-002: Low Text Contrast in Dark Mode
+
+- **Related Test Case:** TC-007
+- **Severity:** Low (proposed)
+- **Status:** Open — pending verification
+
+**Steps to Reproduce**
+1. Open the application.
+2. Enable dark mode.
+3. Check the smaller descriptive text.
+
+**Expected Result:** Text should be clearly readable in dark mode.
+
+**Actual Result:** Some smaller descriptive text has low contrast and is difficult to read.
+
+## BUG-003: Appointment Form Difficult to Read in Dark Mode
+
+- **Related Test Case:** TC-008
+- **Severity:** Medium (proposed)
+- **Status:** Open — pending verification
+
+**Steps to Reproduce**
+1. Open the appointment booking form.
+2. Enable dark mode.
+3. Inspect the form fields, labels, placeholders, and entered values.
+
+**Expected Result:** All form elements should be clearly readable.
+
+**Actual Result:** Some form fields and text are difficult to distinguish in dark mode.
+
+---
+
+**Note:** These reports document observed behavior. Severity is preliminary, and the issues remain open until further investigation and verification.
